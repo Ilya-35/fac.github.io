@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>algèbre3</title>
+    <link href="../../style.css" rel="stylesheet">
+    <link href="../../fonts.css" rel="stylesheet">
+    <link href="../smi2.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  </head>
+
+  <body>
+    <div class="nav">
+      <span class="bar" onclick="openNav()">&#9776; <p class="logo">Fac</p>
+      </span>
+      <div class="topnav" id="topnavJs">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../../">🏠&nbsp;&nbsp;Home</a>
+        <a href="../../smi2/" style="color: #2A2A53">🎓&nbsp;&nbsp;SMI</a>
+        <a href="../../contact/">📝&nbsp;&nbsp;Contact</a>
+      </div>
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("topnavJs").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("topnavJs").style.width = "0";
+      }
+    </script>
+
+
+
+    <h2>Algèbre 3: Espace Vectoriels, Matrices et Déterminants</h2>
+
+    <hr style="background-color: #fff; margin: 20px; padding: -1px">
+
+    <div class="cours">
+      <li><a href="cours/cours-algèbre3.pdf">Cours d'algèbre</a></li>
+    </div>
+
+   <hr class="hrSmi2">
+
+    <div class="td">
+      <li><a href="td/td1-algèbre3.pdf">TD1</a></li>
+      <li><a href="td/td2-algèbre3.pdf">TD2</a></li>
+      <li><a href="td/td3-algèbre3.pdf">TD3</a></li>
+    </div>
+
+   <hr class="hrSmi2">
+
+    <div class="examens">
+      <li><a href="examens/Examen-blanc-1.pdf">Examen Blanc 1</a></li>
+      <li><a href="examens/Examen-blanc-2.pdf">Examen Blanc 2</a></li>
+      <li><a href="examens/Examen-blanc-3.pdf">Examen Blanc 3</a></li>
+      <li><a href="examens/Examen-blanc-dAlgèbre-3.pdf">Examen Blanc d'Algèbre 3</a></li>
+      <li><a href="examens/Examen-Rattrapage-2019.pdf">Examen de rattrapage 2019</a></li>
+    </div>
+
+    <hr calss="hrSmi2">
+
+    <div class="solExamens">
+      <li><a href="examens/Correction-de-lexamen-blanc-1.pdf">Correction de Examen Blanc 1</a></li>
+      <li><a href="examens/Correction-de-lexamen-blanc-2.pdf">Correction de Examen Blanc 2</a></li>
+      <li><a href="examens/Correction-de-lexamen-blanc-3.pdf">Correction de Examen Blanc 3</a></li>
+      <li><a href="examens/Correction-dExamen-blanc-Algèbre-3.pdf">Correction de Examen Blanc d'Algèbre 3</a></li>
+      <li><a href="examens/Correction-dExamen-Rattrapage-2019.pdf">Correction de Examen rattrapage 2019</a></li>
+    </div>
+
+
+   <hr style="background-color: #fff; margin: 20px; padding: -1px">
+
+
+   <p class="logoBottom">IlyaCpp</p>
+    <p class="bottomMessage">Non affilié à aucune université</p>
+  </body>
+</html>

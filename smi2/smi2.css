@@ -1,11 +1,143 @@
 .cours {
+	   margin: 40px;
+     margin-left: 75px;
+     font-size 50px;
+     color: #fff;
+     font-family:"bebas";
+}
+
+.cours a{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.cours a:hover{
+  color: #4d4dff;
+  transition: 0.3s;
+}
+
+a{
+}
+
+/*li {
+
+list-style-type: none;
+}
+*/
+  @media screen and (max-width: 480px){
+.cours li{
+  font-size: 30px; !important
+  display: block; !important
+  margin: 10px; !important
+  margin-left: 50px; !important
+  margin-right: 50px; !important
+}
+.td li {
+  font-size: 30px; !important
+  display: block; !important
+  margin: 10px; !important
+  margin-left: 50px; !important
+  margin-right: 50px; !important
+
+}
+
+.examens li {
+  font-size: 30px; !important
+  display: block; !important
+  margin: 10px; !important
+  margin-left: 50px; !important
+  margin-right: 50px; !important
+}
+
+.solExamens li {
+  font-size: 30px; !important
+  display: block; !important
+  margin: 10px; !important
+  margin-left: 50px; !important
+  margin-right: 50px; !important
+}
+}
+
+
+@media screen and (max-width: 480px){
+.algbH{
+  font-size: 30px;
+}
+}
+
+@media screen and (max-width: 480px){
+.hh3{
+font-size: 40px;
+}
 
 }
 
 .td {
-
+	   margin: 40px;
+     margin-left: 75px;
+     font-size 50px;
+     color: #fff;
+     font-family:"bebas";
 }
 
-.examen {
+.td a{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  text-align: center;
+}
 
+.td a:hover{
+  color: #4d4dff;
+  transition: 0.3s;
+}
+
+.examens {
+	   margin: 40px;
+     margin-left: 75px;
+     font-size 50px;
+     color: #fff;
+     font-family:"bebas";
+}
+
+.examens a{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.examens a:hover{
+  color: #4d4dff;
+  transition: 0.3s;
+}
+
+.solExamens {
+	   margin: 40px;
+     margin-left: 75px;
+     font-size 50px;
+     color: #fff;
+     font-family:"bebas";
+}
+
+.solExamens a{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.solExamens a:hover{
+  color: #4d4dff;
+  transition: 0.3s;
+}
+
+.hrSmi2{
+background-color: #fff;
+margin: 20px;
+height: 2px;
+border: none;
+padding: -1px;
 }
